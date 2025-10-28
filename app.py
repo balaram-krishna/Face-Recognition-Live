@@ -72,4 +72,5 @@ iface = gr.Interface(
     description="Uploads two group photos, counts all faces (front, side, partial), and marks matched faces in green and unmatched in red."
 )
 
-iface.launch()
+import os
+iface.launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 7860)))
