@@ -7,13 +7,14 @@ opencv-python-headless==4.10.0.84
 numpy==1.26.4
 Pillow==10.4.0
 
-# Server and Networking
-websockets==12.0
-uvicorn==0.30.1
+# Web server dependencies
 fastapi==0.115.0
-
-# Optional but recommended for stability on Render
+uvicorn==0.30.1
 gunicorn==22.0.0
+websockets==12.0
 protobuf==5.27.3
-scipy==1.13.1
 tqdm==4.66.4
+
+# --- OPTIONAL ---
+# Commented out SciPy (causing build failure)
+# scipy==1.13.1
