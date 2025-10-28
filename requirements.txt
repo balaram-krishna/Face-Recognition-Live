@@ -1,7 +1,8 @@
 gradio==3.39.0
 insightface==0.7.3
 onnxruntime==1.23.1
+onnx==1.16.1
+ml_dtypes==0.3.2
 opencv-python-headless==4.10.0.84
 numpy==1.26.4
 Pillow
-
