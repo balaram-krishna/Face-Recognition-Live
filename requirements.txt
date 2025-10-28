@@ -1,22 +1,19 @@
-# ---- InsightFace + ONNX (Python 3.13 compatible) ----
+# Core Libraries
+gradio==3.39.0
 insightface==0.7.3
 onnx==1.17.0
 onnxruntime==1.23.2
-ml_dtypes==0.4.1
-protobuf<6
-
-# ---- Core deps ----
-numpy==1.26.4
 opencv-python-headless==4.10.0.84
+numpy==1.26.4
 Pillow==10.4.0
 
-# ---- Web + UI ----
-gradio==3.39.0
-fastapi==0.115.0
+# Server and Networking
+websockets==12.0
 uvicorn==0.30.1
+fastapi==0.115.0
 
-# ---- Utilities ----
-pandas==2.2.3
-scikit-learn==1.5.2
-requests==2.32.3
-tqdm==4.66.5
+# Optional but recommended for stability on Render
+gunicorn==22.0.0
+protobuf==5.27.3
+scipy==1.13.1
+tqdm==4.66.4
