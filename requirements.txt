@@ -1,20 +1,7 @@
-# Core Libraries
 gradio==3.39.0
 insightface==0.7.3
-onnx==1.17.0
-onnxruntime==1.23.2
+onnxruntime==1.23.1
 opencv-python-headless==4.10.0.84
 numpy==1.26.4
-Pillow==10.4.0
-
-# Web server dependencies
-fastapi==0.115.0
-uvicorn==0.30.1
-gunicorn==22.0.0
-websockets==12.0
-protobuf==5.27.3
-tqdm==4.66.4
-
-# --- OPTIONAL ---
-# Commented out SciPy (causing build failure)
-# scipy==1.13.1
+Pillow==10.3.0
+websockets<12.0
